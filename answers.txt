@@ -1,4 +1,30 @@
 No code editor, no python interpreter, no Google!
 Show what you know!
 
+correct answers = ✅
+wrong answers = ❌
+
 # Your answers here:
+
+1. items = { "Oregon": "Salem", "Washington": "Olympia" } ✅
+
+2. def add_numbers(num1, num2):
+      return num1 + num2 ✅
+
+3. pet_msg = f'There are {cats} cats and {dogs} dogs' ❌
+
+4. def more_cats_or_dogs(cats, dogs):
+      if cats > dogs:
+        return "cats"
+      else:
+        return "dogs" ✅
+
+5. class Cat:
+      def __init__(self, name, age):
+        self.name = name
+        self.age = age ❌
+
+6. my_cat = Cat()
+   my_cat = { name: "Stormy", age: 5 } ❌
+   
+7. print(f'My cat, named {my_cat[name]}, is {my_cat[age]} years old')
